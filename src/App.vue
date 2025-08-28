@@ -18,7 +18,8 @@ import LibraryRegistrationForm from './components/LibraryRegistrationForm.vue'
 <style scoped>
 /* header {
   line-height: 1.5;
-}
+
+  }
 
 .logo {
   display: block;
