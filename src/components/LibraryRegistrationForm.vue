@@ -47,8 +47,8 @@ const errors = ref({
 const reasonMessage = ref('')
 const validateReason = (blur) => {
   const reason = formData.value.reason || ''
-  if (reason.length < 10) {
-    if (blur) errors.value.reason = 'Reason must be at least 10 characters.'
+  if (reason.length < 20) {
+    if (blur) errors.value.reason = 'Reason must be at least 20 characters.'
     else errors.value.reason = null
   } else {
     errors.value.reason = null
